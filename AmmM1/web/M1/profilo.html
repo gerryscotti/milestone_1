@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Profilo</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="NERDBOOK PROFILO PROFILE POST BUSH FACEBUSH">
+        <meta name="author" content = "Marco Saia">
+        <meta name="description" content = "Nerdbook profile page">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="main-nav-bar">
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <h1>NerdBook</h1>
+        <h3>Compila il tuo profilo!</h3>
+       
+        <form id="profile-form" action="#" method="post">
+            <label for="form-firstname">Nome</label>
+            <br/>
+            <input type="text" name="form-firstname" id="form-firstname"/>
+            <br/>
+            
+            <label for="form-lastname">Cognome</label>
+            <br/>
+            <input type="text" name="form-lastname" id="form-lastname"/>
+            <br/>
+            
+            <label for="form-profilepicurl">URL immagine del profilo</label>
+            <br/>
+            <input type="url" name="form-profilepicurl" id="form-profilepicurl"/>
+            <br/>
+            
+            <label for="form-aboutme">Descrizione</label>
+            <br/>
+            <textarea rows="4" cols="20" name="form-aboutme" id="form-aboutme"></textarea>
+            <br/>
+            
+            <label for="form-birthdate">Data di nascita</label>
+            <br/>
+            <input type="date" name="form-birthdate" id="form-birthdate"/>
+            <br/>
+            
+            <label for="form-password">Password</label>
+            <br/>
+            <input type="password" name="form-password" id="form-password"/>
+            <br/>
+            
+            <label for="form-confirmpassword">Conferma Password</label>
+            <br/>
+            <input type="password" name="form-confirmpassword" id="form-confirmpassword"/>
+            
+            <br/><br/>
+            <button type="submit">Salva</button>
+            
+        </form>
+        
     </body>
 </html>
