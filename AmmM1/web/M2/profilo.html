@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Profilo</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="NERDBOOK PROFILO PROFILE POST BUSH FACEBUSH">
+        <meta name="author" content = "Marco Saia">
+        <meta name="description" content = "Nerdbook profile page">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="main-nav-bar">
+            
+            <ul>      
+                <li><h1>NerdBook</h1></li>
+            </ul>
+            
+            <ul>
+                <li><a class="page-bacheca" href="login.html">Profilo</a></li>
+                <li><a href="bacheca.html">Bacheca</a></li>
+            </ul>
+            
+            <div id="logout-container">
+                <!--Icona utente e nome-->
+                <div id="logout-name-container">
+                    <img title="person-icon" alt="Icona di una persona" src="images/person_icon.png"/>
+                    <h3>George W. Bush</h3>
+                </div>
+                <!--Tasto di logout-->
+                <a id="logout-link" href="#">Logout</a>
+                
+            </div>
+            
+        </div>
+        
+                <div id="left-side-nav-bar">
+                    <form>
+            <input type="text" placeholder="Cerca..">
+            </form>
+            <h2>Persone</h2>
+            <div class="people-container">
+                <img title="person-icon" alt="Icona di una persona" src="images/person_icon.png"/>
+                <h3>Nadia Toffa</h3>  
+            </div>
+            
+            <div class="people-container">
+                <img title="person-icon" alt="Icona di una persona" src="images/person_icon.png"/>
+                <h3>Jack lo Squartarato</h3>  
+            </div>
+            
+            <h2>Gruppi</h2>
+                <div class="people-container">
+                <img title="person-icon" alt="Icona di una persona" src="images/content_icon.jpg"/>
+                <h3>Animali senza faccia</h3>  
+                
+                <div class="people-container">
+                <img title="person-icon" alt="Icona di una persona" src="images/content_icon.jpg"/>
+                <h3>Persone con il micropene</h3>  
+                    </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        <div id="right-side">
+       
+            
+            <img class="profile-pic" alt="Foto del profilo" name="fotoprofilo" src="images/bushface.jpg">
+            
+        <form id="profile-update-form" action="#" method="post">
+           
+            <table>
+                <tr>
+                    <td> <label for="form-firstname">Nome</label></td>
+                    <td> <input type="text" name="form-firstname" id="form-firstname"/> </td>
+                </tr>
+                                <tr>
+                    <td> <label for="form-lastname">Cognome</label></td>
+                    <td> <input type="text" name="form-lastname" id="form-lastname"/> </td>
+                </tr>
+                                <tr>
+                    <td> <label for="form-birthdate">Nato il</label></td>
+                    <td> <input type="date" name="form-birthdate" id="form-birthdate"/> </td>
+                </tr>
+                                <tr>
+                    <td> <label for="form-status">Frase di presentazione</label></td>
+                    <td> <input type="text" name="form-status" id="form-status"/> </td>
+                </tr>
+                                <tr>
+                    <td> <label for="form-password">Password</label></td>
+                    <td> <input type="password" name="form-firstname" id="form-firstname"/> </td>
+                </tr>
+                                <tr>
+                    <td> <label for="form-confirm-password">Conferma Password</label></td>
+                    <td> <input type="password" name="form-confirm-password" id="form-confirm-password"/> </td>
+                </tr>
+            </table>
+            
+            <button id="profile-button">Aggiorna</button>
+            
+        </form>
+        
+        </div>
+        
+    </body>
+</html>
