@@ -58,6 +58,12 @@ html, body {
     font-size: 23px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 480px) {
+#left-side-nav-bar {
+    display:none;
+}
+}
+@media screen and (min-width: 481px){
 #left-side-nav-bar {
     overflow:hidden;
     float:left;
@@ -67,6 +73,9 @@ html, body {
     height:100%;
     min-height:100%;
     background-color:  #e0ecff;
+}
+
+
 }
 
 #left-side-nav-bar.people-container {
@@ -100,12 +109,26 @@ html, body {
     line-height: 25px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 480px) {
+#right-side {
+    display:block;
+    float:none;
+    height:100%;
+    width:100%;
+}
+}
+@media screen and (min-width: 481px){
 #right-side {
     float:right;
     width:75%;
         height:100%;
     min-height:100%;
 }
+
+
+}
+
+
 
 #logout-container {
     float:right;
@@ -231,8 +254,8 @@ html, body {
 
 #logo-container {
     width: 100%;
-    margin-left:460px;
     margin-top:50px;
+    text-align: center;
 }
 
 #logo-container h1 {
@@ -248,7 +271,8 @@ html, body {
 }
 
 #login-form {
-    width: 300px;
+    width: 100%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top:30px;
@@ -307,6 +331,27 @@ html, body {
     width:150px;
 }
 
+
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+#profile-update-form {
+    margin-left: 0px;
+    width:100%;
+    margin-top:30px;
+}
+#profile-button {
+    margin-top:10px;
+    margin-left: 170px;
+    width:200px;
+    height:25px;
+}
+}
+@media screen and (min-width: 481px){
+#profile-update-form {
+    margin-left: 200px;
+    width:100%;
+    margin-top:30px;
+}
 #profile-button {
     margin-top:10px;
     margin-left: 70px;
@@ -314,8 +359,5 @@ html, body {
     height:25px;
 }
 
-#profile-update-form {
-    margin-left: 200px;
-    width:100%;
-    margin-top:30px;
 }
+
